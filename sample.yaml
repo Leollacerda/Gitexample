@@ -1,0 +1,28 @@
+---
+people:
+- id: 1
+  Code: 524.37
+  FirstName: Leonardo
+  Lastname: Lacerda
+  Email: leolacerdasilva@gmail.com
+  Active: true
+- id: 2
+  Code: 813.09
+  FirstName: Camila
+  Lastname: Carvalho
+  Email: ilacarvalho@gmail.com
+  Active: true  
+... #This is a end of a document in YAML
+--- #This is the start of a new document in YAML
+
+item1: item1value
+item2: item2value
+...
+
+---
+Anumber: 145
+Afloat: 198.05
+Astring: Hello World! #Without quotes the string is executed as raw string
+AquoteString: "Quotes are well acceptable.\n That's right, a new line escape"
+...
+
